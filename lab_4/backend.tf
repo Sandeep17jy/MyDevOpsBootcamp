@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "master-smithy-283514-tfstate"
+    bucket = "capable-epigram-285414-tfstate"
     prefix = "terraform/state/lab4"
   }
 }
